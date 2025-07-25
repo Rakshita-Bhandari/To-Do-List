@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", loadTasks);
 
-function addTask() {
+function addTask(){
   const input = document.getElementById("taskInput");
   const task = input.value.trim();
   if (task === "") return;
